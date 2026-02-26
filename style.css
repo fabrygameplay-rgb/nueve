@@ -53,7 +53,7 @@ main {
     width: 270px;
 }
 
-#CuadroAzul{
+#CuadroAzul {
     background-color: steelblue;
     border: solid black 1px;
     margin-right: 10px;
@@ -61,13 +61,13 @@ main {
     margin-left:10px;
 }
 
-h3{
+h3 {
     margin-left: 10px;
     font-size: 13px;
     font-family: arial;
 }
 
-span{
+span {
     font-weight: normal;
     font-family: arial;
     font-size: 13px;
@@ -104,7 +104,7 @@ span{
     margin-bottom: 5px;
 }
 
-#flexibilidad{
+#flexibilidad {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -122,17 +122,17 @@ li{
     font-size: 16px;
 }
 
-#RectánguloDos{
+#RectánguloDos {
     display: flex;
     align-items: flex-start;
 }
 
-#visor1{
+#visor1 {
     display: none;
     margin: 10px;
 }
 
-#visor2{
+#visor2 {
     display: none;
     flex-direction: column;
     text-align: justify;
@@ -153,17 +153,17 @@ li{
     padding:10px;
 }
 
-#imagenAnatomía{
+#imagenAnatomía {
     width: 300px;
     height: 300px;  
     display: block;
 }
 
-ul{
+ul {
     margin-right: 10px;
 }
 
-#referencias{
+#referencias {
     text-align: justify;
     font-family: arial;
     font-size: 12px;
@@ -195,7 +195,15 @@ li.activo {
 
     #textoAnatomía {
         width: 100%;
-        max-width: 450px;
+        max-width: 600px;
+        height: auto;
+        min-height: 278px;
+    }
+
+    #segundafoto, #tercerafoto {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
     }
 
 }
@@ -207,7 +215,7 @@ li.activo {
     }
 
     #flexibilidad {
-        flex-wrap: wrap;
+        flex-direction: column;
         gap: 20px;
     }
 
@@ -217,6 +225,14 @@ li.activo {
 
     #textoAnatomía {
         width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    #segundafoto, #tercerafoto, #imagenAnatomía {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
     }
 
 }
@@ -244,31 +260,16 @@ li.activo {
     #textoAnatomía {
         width: 100%;
         height: auto;
+        min-height: 220px;
     }
 
-    #imagenAnatomía {
-        width: 100%;
-        height: auto;
-    }
-
-    #primerafoto,
-    #segundafoto,
-    #tercerafoto {
+    #primerafoto, #segundafoto, #tercerafoto, #imagenAnatomía {
         width: 100%;
         height: auto;
     }
 
     header {
         font-size: 22px;
-    }
-
-    .sección1 {
-        font-size: 18px;
-    }
-
-    .sección2,
-    li {
-        font-size: 14px;
     }
 
 }
