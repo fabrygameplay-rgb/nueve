@@ -258,19 +258,3 @@ li.activo {
     }
 
 }
-
-@media (min-width: 1025px) and (max-width: 1366px) {
-
-    #textoAnatomía {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-    }
-
-    #segundafoto,
-    #tercerafoto {
-        max-width: 250px;
-        height: auto;
-    }
-
-}
