@@ -139,10 +139,8 @@ li{
 }
 
 #textoAnatomía {
-    display: block;
-    resize: none;
-    width: 488px;
-    height: 278px;
+    width: 504px;
+    height: 300px;
     font-family: Arial;
     font-size: 14px;
     border: 1px solid black;
