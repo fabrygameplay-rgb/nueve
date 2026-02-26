@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     color: black;
     text-align: center;
@@ -185,4 +189,86 @@ li.activo {
 #referencias a {
     color: blue;
     text-decoration: underline;
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+    #textoAnatomía {
+        width: 100%;
+        max-width: 450px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    #flexibilidad {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #Rectángulo {
+        width: 100%;
+    }
+
+    #textoAnatomía {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    #flexibilidad {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #Rectángulo {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #RectánguloDos {
+        flex-direction: column;
+    }
+
+    #textoAnatomía {
+        width: 100%;
+        height: auto;
+    }
+
+    #imagenAnatomía {
+        width: 100%;
+        height: auto;
+    }
+
+    #primerafoto,
+    #segundafoto,
+    #tercerafoto {
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        font-size: 22px;
+    }
+
+    .sección1 {
+        font-size: 18px;
+    }
+
+    .sección2,
+    li {
+        font-size: 14px;
+    }
+
 }
