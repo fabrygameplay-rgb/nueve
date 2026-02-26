@@ -38,7 +38,6 @@ main {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    
 }
 
 #primerafoto {
@@ -191,61 +190,13 @@ li.activo {
     text-decoration: underline;
 }
 
-@media (min-width: 1025px) and (max-width: 1366px) {
-
-    #textoAnatomía {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        min-height: 278px;
-    }
-
-    #segundafoto, #tercerafoto {
-        width: 100%;
-        max-width: 250px;
-        height: auto;
-    }
-
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-    main {
-        flex-direction: column;
-    }
-
-    #flexibilidad {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    #Rectángulo {
-        width: 100%;
-    }
-
-    #textoAnatomía {
-        width: 100%;
-        height: auto;
-        min-height: 250px;
-    }
-
-    #segundafoto, #tercerafoto, #imagenAnatomía {
-        width: 100%;
-        height: auto;
-        max-width: 400px;
-    }
-
-}
-
 @media (max-width: 768px) {
 
-    main {
+    main,
+    #flexibilidad,
+    #RectánguloDos {
         flex-direction: column;
-    }
-
-    #flexibilidad {
-        flex-direction: column;
-        gap: 15px;
+        align-items: stretch;
     }
 
     #Rectángulo {
@@ -253,15 +204,10 @@ li.activo {
         margin-right: 0;
     }
 
-    #RectánguloDos {
-        flex-direction: column;
-    }
-
     #textoAnatomía {
         width: 100%;
-        height: auto;         
-        min-height: unset;
-        overflow: visible;     
+        height: auto;
+        overflow: visible;
     }
 
     #primerafoto,
@@ -269,11 +215,62 @@ li.activo {
     #tercerafoto,
     #imagenAnatomía {
         width: 100%;
+        max-width: 100%;
         height: auto;
     }
 
     header {
         font-size: 22px;
+    }
+
+    #primerafoto {
+        width: 90%;
+        height: auto;
+        padding: 1px;
+        display: block;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    #flexibilidad {
+        flex-wrap: wrap;
+    }
+
+    #RectánguloDos {
+        flex-wrap: wrap;
+    }
+
+    #textoAnatomía {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+
+    #segundafoto,
+    #tercerafoto,
+    #imagenAnatomía {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+
+    #textoAnatomía {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+
+    #segundafoto,
+    #tercerafoto {
+        max-width: 250px;
+        height: auto;
     }
 
 }
