@@ -259,11 +259,15 @@ li.activo {
 
     #textoAnatomía {
         width: 100%;
-        height: auto;
-        min-height: 220px;
+        height: auto;         
+        min-height: unset;
+        overflow: visible;     
     }
 
-    #primerafoto, #segundafoto, #tercerafoto, #imagenAnatomía {
+    #primerafoto,
+    #segundafoto,
+    #tercerafoto,
+    #imagenAnatomía {
         width: 100%;
         height: auto;
     }
