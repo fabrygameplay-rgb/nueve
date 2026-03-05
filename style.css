@@ -139,8 +139,8 @@ li{
 }
 
 #textoAnatomía {
-    width: 504px;
-    height: 300px;
+    width: 740px;
+    height: 200px;
     font-family: Arial;
     font-size: 14px;
     border: 1px solid black;
@@ -152,7 +152,7 @@ li{
 
 #imagenAnatomía {
     width: 300px;
-    height: 300px;  
+    height: 200px;  
     display: block;
 }
 
@@ -188,7 +188,111 @@ li.activo {
     text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 861px) and (max-width: 988px) {
+
+    #RectánguloDos {
+        flex-wrap: wrap;
+    }
+
+    #segundafoto,
+    #tercerafoto {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    #flexibilidad {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    #rectánguloDos {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #visor1 {
+        width: auto;
+        max-width: 310px;
+        height: 100%;
+        max-height: 220px;
+        margin-bottom: 30px;
+    }
+
+    #imagenAnatomía {
+        width: 100%;
+        max-width: 360px;
+        height: 220px;
+    }
+
+    #visor2 {
+        width: 100%;
+        max-width: 410px;
+        height: 100%;
+        max-height: 300px;
+    }
+
+    #textoAnatomía {
+        height: 220px;
+        width: 410px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 860px) {
+
+    #RectánguloDos {
+        flex-wrap: wrap;
+    }
+
+    #segundafoto,
+    #tercerafoto {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    #flexibilidad {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    #rectánguloDos {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #visor1 {
+        width: auto;
+        max-width: 360px;
+        height: 100%;
+        max-height: 200px;
+        margin-bottom: 30px;
+    }
+
+    #imagenAnatomía {
+        width: 100%;
+        max-width: 360px;
+        max-height: 150px;
+    }
+
+    #visor2 {
+        width: 100%;
+        max-width: 428px;
+        height: 100%;
+        max-height: 300px;
+    }
+
+    #textoAnatomía {
+        height: 220px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
 
     main,
     #flexibilidad,
@@ -226,33 +330,6 @@ li.activo {
         height: auto;
         padding: 1px;
         display: block;
-    }
-
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-    #flexibilidad {
-        flex-wrap: wrap;
-    }
-
-    #RectánguloDos {
-        flex-wrap: wrap;
-    }
-
-    #textoAnatomía {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        overflow: visible;
-    }
-
-    #segundafoto,
-    #tercerafoto,
-    #imagenAnatomía {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
     }
 
 }
