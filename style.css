@@ -268,7 +268,7 @@ li.activo {
 
     #visor1 {
         width: auto;
-        max-width: 360px;
+        max-width: 340px;
         height: 100%;
         max-height: 200px;
         margin-bottom: 30px;
@@ -276,7 +276,7 @@ li.activo {
 
     #imagenAnatomía {
         width: 100%;
-        max-width: 360px;
+        max-width: 300px;
         max-height: 150px;
     }
 
@@ -284,7 +284,7 @@ li.activo {
         width: 100%;
         max-width: 428px;
         height: 100%;
-        max-height: 300px;
+        max-height: 500px;
     }
 
     #textoAnatomía {
@@ -342,14 +342,13 @@ li.activo {
     }
 
     #textoAnatomía {
-        max-width: 352px;
+        max-width: 348px;
         min-height: 250px;
     }
 
     #visor2 {
         width: 100%;
-        min-width: 428px;
-        max-width: 432px;
+        min-width: 348px;
         height: 100%;
         min-height: 250px;
     }
