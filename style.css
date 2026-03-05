@@ -293,7 +293,7 @@ li.activo {
     }
 }
 
-@media (min-width: 430px) and (max-width: 535px) {
+/*@media (min-width: 430px) and (max-width: 535px) {
 
     #RectánguloDos {
         flex-wrap: wrap;
@@ -345,7 +345,7 @@ li.activo {
         width: 100%;
         min-width: 380px;
     }
-}
+}*/
 
 @media (max-width: 429px) {
 
