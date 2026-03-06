@@ -391,12 +391,12 @@ li.activo {
         width: 100%;
         max-width: 540px;
         height: 100%;
-        max-height: 500px;
+        max-height: 580px;
     }
 
     #textoAnatomía {
         height: 220px;
-        width: 540px;
+        width: 580px;
     }
 }
 
