@@ -395,8 +395,10 @@ li.activo {
     }
 
     #textoAnatomía {
-        height: 220px;
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        max-height: 580px;
     }
 }
 
