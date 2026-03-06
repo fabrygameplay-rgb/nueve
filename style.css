@@ -293,26 +293,25 @@ li.activo {
         font-size: 22px;
     }
 
+
     #visor1 {
-        width: 150px;
+        width: 100%;
+        max-width: 150px;
     }
 
     #imagenAnatomía {
-        width: auto;
+        width: 100%;
+        height: auto;
     }
 
     #textoAnatomía {
-        width: auto;
-        min-width: 490px;
+        width: 100%;
         max-height: 250px;
     }
 
     #visor2 {
-        min-width: 100%;
-        width: auto;
+        width: 100%;
         max-width: 490px;
-        height: 100%;
         min-height: 250px;
     }
-
 }
