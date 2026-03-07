@@ -188,68 +188,6 @@ li.activo {
     text-decoration: underline;
 }
 
-@media (min-width: 536px) and (max-width: 980px) {
-
-    #segundafoto,
-    #tercerafoto {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-    }
-
-    #flexibilidad {
-        display: flex;
-        align-items: flex-start;
-        gap: 30px;
-    }
-
-    #RectánguloDos {
-        flex-direction: column;
-        align-items: stretch;
-        width: 100px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    #visor1 {
-        display:flex;
-        flex-wrap: nowrap;
-        width: auto;
-        max-width: 100px;
-        height: 100%;
-        max-height: 220px;
-        margin-bottom: 30px;
-    }
-
-    #imagenAnatomía {
-        width: 100%;
-        min-width: 100px;
-        max-width: 360px;
-        height: 220px;
-    }
-
-    #visor2 {
-        display: flex;
-        width: auto;
-        min-width: 500px;
-        max-width: 500px;
-        height: 100%;
-        max-height: 300px;
-    }
-
-    #textoAnatomía {
-        display: flex;
-        width: auto;
-        min-width: 100px;
-        max-width: 500px;
-        height: 220px;
-    }
-
-    #RectánguloDos li {
-        width: auto;
-        max-width: 100px;
-    }
-}
-
 @media (max-width: 535px) {
 
     main,
@@ -302,7 +240,6 @@ li.activo {
     #imagenAnatomía{
         width:100%;
         height:170px;
-        object-fit: contain;
     }
 
     #textoAnatomía {
@@ -318,9 +255,10 @@ li.activo {
     }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
 
-      main,
+
+    main,
     #flexibilidad {
         flex-direction: column;
         align-items: stretch;
