@@ -257,7 +257,6 @@ li.activo {
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
 
-
     main,
     #flexibilidad {
         flex-direction: column;
@@ -316,6 +315,7 @@ li.activo {
     #imagenAnatomía{
         width:100%;
         height:170px;
+        object-fit: contain;
     }
 
     #textoAnatomía {
@@ -333,5 +333,17 @@ li.activo {
     #referencias {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
+    }
+
+    header{
+        font-size:clamp(22px,3vw,30px);
+    }
+
+    .sección1{
+        font-size:clamp(16px,2vw,20px);
+    }
+
+    .sección2{
+        font-size:clamp(14px,1.8vw,16px);
     }
 }
