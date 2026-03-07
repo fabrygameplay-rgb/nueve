@@ -265,18 +265,21 @@ li.activo {
     #flexibilidad {
         flex-direction: column;
         align-items: stretch;
+        font-size: 10px;
     }
 
     #RectánguloDos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        font-size: 10px;
     }
 
     #Rectángulo {
         display: block;
         width: 100%;
         margin-right: 10px;
+        font-size: 10px;
     }
 
     #CuadroVerde {
