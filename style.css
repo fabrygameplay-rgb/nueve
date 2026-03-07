@@ -329,7 +329,11 @@ li.activo {
         height: auto;
     }
 
-    #referncias {
+    #referencias {
         font-size: 8px;
+    }
+
+    .sección2 {
+        font-size: 10px;
     }
 }
