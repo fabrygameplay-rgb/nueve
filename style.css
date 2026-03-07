@@ -262,18 +262,24 @@ li.activo {
     #flexibilidad {
         flex-direction: column;
         align-items: stretch;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     #RectánguloDos {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     #Rectángulo {
         display: block;
         width: 100%;
         margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     #CuadroVerde {
@@ -281,6 +287,8 @@ li.activo {
         background-color: seagreen;
         padding: 1px;
         padding-right: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 
     #primerafoto {
@@ -320,5 +328,10 @@ li.activo {
         flex-direction: column;
         width: 100%;
         flex-basis: 100%;
+    }
+
+    #referencias {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
 }
