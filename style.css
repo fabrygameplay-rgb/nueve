@@ -257,6 +257,10 @@ li.activo {
 
 @media (orientation: landscape) and (max-width: 900px) {
 
+    body{
+        background:red;
+    }
+    
     main,
     #flexibilidad {
         flex-direction: column;
