@@ -255,7 +255,7 @@ li.activo {
     }
 }
 
-@media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 900px) {
 
     main,
     #flexibilidad {
@@ -321,7 +321,7 @@ li.activo {
         width: 100%;
         height: auto;
     }
-    
+
     h3{
         font-size:15px;
     }
