@@ -342,19 +342,21 @@ li.activo {
         max-width: 300px;
     }
 
-    #imagenAnatomía {
-        width: 100%;
-        height: 170px;
+    #imagenAnatomía{
+        width: 300px;
+        height: 200px;
     }
 
     #visor2 {
+        display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
+        max-width: 500px;
     }
 
     #textoAnatomía {
-        width: 100%;
-        height: auto;
+        width: 500px;
+        height: 200px;
     }
 
     #RectánguloDos li {
