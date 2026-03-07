@@ -257,6 +257,11 @@ li.activo {
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
 
+    body {
+        font-size: 14px;
+        font-family: arial;
+    }
+
     main,
     #flexibilidad {
         flex-direction: column;
@@ -320,33 +325,6 @@ li.activo {
     #textoAnatomía {
         width: 100%;
         height: auto;
-        font-size: 15px;
-    }
-
-    /* 🔧 CORRECCIÓN REAL DEL TEXTO */
-
-    h3{
-        font-size:15px;
-    }
-
-    span{
-        font-size:15px;
-    }
-
-    li{
-        font-size:15px;
-    }
-
-    .sección1{
-        font-size:18px;
-    }
-
-    .sección2{
-        font-size:15px;
-    }
-
-    #referencias{
-        font-size:14px;
     }
 
 }
