@@ -316,3 +316,49 @@ li.activo {
         flex-basis: 100%;
     }
 }
+
+@media (max-width: 900px) and (orientation: landscape) {
+
+    main {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #flexibilidad {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #RectánguloDos {
+        flex-direction: row;
+        align-items: flex-start;
+        width: auto;
+        margin-top: 20px;
+    }
+
+    #visor1 {
+        display: block;
+        width: auto;
+        max-width: 300px;
+    }
+
+    #imagenAnatomía{
+        width: 300px;
+        height: 200px;
+    }
+
+    #visor2 {
+        display: flex;
+        width: auto;
+        max-width: 500px;
+    }
+
+    #textoAnatomía {
+        width: 500px;
+        height: 200px;
+    }
+
+    #RectánguloDos li {
+        max-width: none;
+    }
+}
