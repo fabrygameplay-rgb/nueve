@@ -297,9 +297,11 @@ li.activo {
 
     #segundafoto,
     #tercerafoto {
+        display: flex;
+        flex-direction: row;
         width: 50%;
         max-width: 50%;
-        height: 80px;
+        height: 120px;
     }
 
     header {
