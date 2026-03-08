@@ -355,7 +355,8 @@ li.activo {
     #flexibilidad{
         display:grid;
         grid-template-columns: 1fr 300px;
-        gap:5px;
+        column-gap:15px;
+        row-gap:5px;
         align-items:start;
     }
 
@@ -401,19 +402,13 @@ li.activo {
         text-align:left;
     }
 
-    header {
-        margin-bottom: 5px; 
+    header{
+        margin-bottom:5px;
     }
 
-    #ColumnaIzquierda .sección2 {
-        text-align: justify;
+    #flexibilidad p{
+        text-align:justify;
+        hyphens:auto;
     }
 
-    body {
-        text-align: justify;
-    }
-
-    #Rectángulo {
-        margin: 0px 5px;
-    }
 }
