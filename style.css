@@ -349,3 +349,40 @@ li.activo {
         font-size: 10px;
     }
 }
+
+@media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
+
+    #flexibilidad{
+        display:block;
+    }
+
+    main{
+        display:block;
+    }
+
+    #Rectángulo{
+        float:right;
+        width:280px;
+        margin:0 0 20px 20px;
+    }
+
+    .sección2 div{
+        display:flex;
+        gap:10px;
+    }
+
+    #segundafoto,
+    #tercerafoto{
+        width:50%;
+        height:150px;
+        object-fit:contain;
+    }
+
+    .sección1:nth-of-type(2),
+    .sección1:nth-of-type(2) + hr,
+    .sección1:nth-of-type(2) + hr + .sección2{
+        clear:both;
+        width:100%;
+    }
+
+}
