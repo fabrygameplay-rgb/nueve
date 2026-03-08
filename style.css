@@ -369,8 +369,11 @@ li.activo {
     }
 
     main{
+        display:contents;
+    }
+
+    main > *{
         grid-column:1;
-        grid-row:1 / span 3;
     }
 
     #ColumnaIzquierda > .sección1:nth-child(3),
@@ -397,5 +400,4 @@ li.activo {
         grid-column:1 / -1;
         text-align:left;
     }
-
 }
