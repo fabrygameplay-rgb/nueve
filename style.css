@@ -387,3 +387,12 @@ li.activo {
     }
 
 }
+
+@media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
+
+    #textoAnatomía{
+        width:900px;
+        height:250px;
+    }
+
+}
