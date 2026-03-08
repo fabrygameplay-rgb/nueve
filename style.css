@@ -353,19 +353,36 @@ li.activo {
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
 
     #flexibilidad{
-        display:block;
+        display:grid;
+        grid-template-columns: 1fr 300px;
+        gap:20px;
+        align-items:start;
     }
 
-    main{
-        display:block;
-    }
-
+    /* Rectángulo verde a la derecha */
     #Rectángulo{
-        float:right;
-        width:280px;
-        margin:0 0 20px 20px;
+        grid-column:2;
+        grid-row:1 / span 4;
     }
 
+    /* permitir que los hijos participen en el grid */
+    #ColumnaIzquierda{
+        display:contents;
+    }
+
+    /* INTRO */
+    main{
+        grid-column:1;
+    }
+
+    /* DISTRIBUCIÓN */
+    #ColumnaIzquierda > .sección1:nth-child(3),
+    #ColumnaIzquierda > hr:nth-child(4),
+    #ColumnaIzquierda > .sección2:nth-child(5){
+        grid-column:1;
+    }
+
+    /* MAPA + CARACOL */
     .sección2 div{
         display:flex;
         gap:10px;
@@ -378,11 +395,12 @@ li.activo {
         object-fit:contain;
     }
 
-    .sección1:nth-of-type(2),
-    .sección1:nth-of-type(2) + hr,
-    .sección1:nth-of-type(2) + hr + .sección2{
-        clear:both;
-        width:100%;
+    /* TAXONOMÍA ocupa todo el ancho */
+    #ColumnaIzquierda > .sección1:nth-child(6),
+    #ColumnaIzquierda > hr:nth-child(7),
+    #ColumnaIzquierda > .sección2:nth-child(8){
+        grid-column:1 / -1;
+        text-align:left;
     }
 
 }
