@@ -358,6 +358,7 @@ li.activo {
         column-gap:15px;
         row-gap:5px;
         align-items:start;
+        text-align:justify;
     }
 
     #Rectángulo{
@@ -367,6 +368,7 @@ li.activo {
 
     #ColumnaIzquierda{
         display:contents;
+        text-align:justify;
     }
 
     main{
@@ -376,7 +378,6 @@ li.activo {
     main > *{
         grid-column:1;
         padding-top:10px;
-        text-align:justify;
     }
 
     #ColumnaIzquierda > .sección1:nth-child(3){
@@ -415,7 +416,7 @@ li.activo {
     }
 
     header{
-        margin-bottom:5px;
+        margin-bottom:15px;
     }
 
 }
