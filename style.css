@@ -375,6 +375,8 @@ li.activo {
 
     main > *{
         grid-column:1;
+        padding-top: 10px;
+        text-align: justify;
     }
 
     #ColumnaIzquierda > .sección1:nth-child(3){
@@ -389,6 +391,7 @@ li.activo {
 
     .sección2 div{
         display:flex;
+        text-align: justify;
         gap:10px;
     }
 
