@@ -355,34 +355,30 @@ li.activo {
     #flexibilidad{
         display:grid;
         grid-template-columns: 1fr 300px;
-        gap:20px;
+        gap:15px;
         align-items:start;
     }
 
-    /* Rectángulo verde a la derecha */
     #Rectángulo{
         grid-column:2;
         grid-row:1 / span 4;
     }
 
-    /* permitir que los hijos participen en el grid */
     #ColumnaIzquierda{
         display:contents;
     }
 
-    /* INTRO */
     main{
         grid-column:1;
+        margin-bottom: 10px;
     }
 
-    /* DISTRIBUCIÓN */
     #ColumnaIzquierda > .sección1:nth-child(3),
     #ColumnaIzquierda > hr:nth-child(4),
     #ColumnaIzquierda > .sección2:nth-child(5){
         grid-column:1;
     }
 
-    /* MAPA + CARACOL */
     .sección2 div{
         display:flex;
         gap:10px;
@@ -395,7 +391,6 @@ li.activo {
         object-fit:contain;
     }
 
-    /* TAXONOMÍA ocupa todo el ancho */
     #ColumnaIzquierda > .sección1:nth-child(6),
     #ColumnaIzquierda > hr:nth-child(7),
     #ColumnaIzquierda > .sección2:nth-child(8){
@@ -403,4 +398,18 @@ li.activo {
         text-align:left;
     }
 
+    #ColumnaIzquierda > .sección1:nth-child(3) {
+        grid-column: 1;
+        margin: 5px 0;
+    }
+
+    #ColumnaIzquierda > hr:nth-child(4) {
+        grid-column: 1;
+        margin: 5px 0;
+    }
+
+    #ColumnaIzquierda > .sección2:nth-child(5) {
+        grid-column:1;
+        margin-top: 5px;
+    }
 }
