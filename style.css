@@ -349,7 +349,6 @@ li.activo {
         font-size: 10px;
     }
 }
-
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait) {
 
     main{
@@ -357,6 +356,10 @@ li.activo {
     }
 
     #flexibilidad{
+        display:block;
+    }
+
+    #RectánguloDos{
         display:block;
     }
 
@@ -383,7 +386,7 @@ li.activo {
     }
 
     #Taxonomía{
-        clear: both;
+        clear:both;
         width:100%;
     }
 
