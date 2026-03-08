@@ -299,9 +299,10 @@ li.activo {
     #tercerafoto {
         display: flex;
         flex-direction: row;
+        flex-wrap: nowrap;
         width: 50%;
         max-width: 50%;
-        height: 120px;
+        height: 150px;
     }
 
     header {
