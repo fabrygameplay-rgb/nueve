@@ -377,7 +377,11 @@ li.activo {
         grid-column:1;
     }
 
-    #ColumnaIzquierda > .sección1:nth-child(3),
+    #ColumnaIzquierda > .sección1:nth-child(3){
+        grid-column:1;
+        margin-top:10%;
+    }
+
     #ColumnaIzquierda > hr:nth-child(4),
     #ColumnaIzquierda > .sección2:nth-child(5){
         grid-column:1;
