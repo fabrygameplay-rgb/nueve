@@ -375,13 +375,12 @@ li.activo {
 
     main > *{
         grid-column:1;
-        padding-top: 10px;
-        text-align: justify;
+        padding-top:10px;
     }
 
     #ColumnaIzquierda > .sección1:nth-child(3){
         grid-column:1;
-        margin-top:10%;
+        margin-top:8px;
     }
 
     #ColumnaIzquierda > hr:nth-child(4),
@@ -389,9 +388,13 @@ li.activo {
         grid-column:1;
     }
 
+    .sección2{
+        text-align:justify;
+        hyphens:auto;
+    }
+
     .sección2 div{
         display:flex;
-        text-align: justify;
         gap:10px;
     }
 
@@ -411,11 +414,6 @@ li.activo {
 
     header{
         margin-bottom:5px;
-    }
-
-    #flexibilidad p{
-        text-align:justify;
-        hyphens:auto;
     }
 
 }
