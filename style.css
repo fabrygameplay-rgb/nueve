@@ -255,7 +255,7 @@ li.activo {
     }
 }
 
-@media (orientation: landscape) and (max-width: 900px) {
+@media (max-width: 535px) and (orientation: landscape) {
 
     body{
         font-size: 10px;
@@ -351,8 +351,16 @@ li.activo {
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait) {
 
+    main{
+        display:block;
+    }
+
     #flexibilidad{
         display:block;
+    }
+
+    body{
+        font-size:18px;
     }
 
     #Rectángulo{
@@ -366,16 +374,16 @@ li.activo {
         gap:10px;
     }
 
-    #segundafoto {
-        width: 50%;
-        height: 155px;
-        object-fit: contain;
+    #segundafoto,
+    #tercerafoto{
+        width:50%;
+        height:150px;
+        object-fit:contain;
     }
 
-    #tercerafoto{
-        width: 50%;
-        height: 150px;
-        object-fit: contain;
+    #Taxonomía{
+        clear: both;
+        width:100%;
     }
 
 }
