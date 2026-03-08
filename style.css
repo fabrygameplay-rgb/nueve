@@ -349,6 +349,7 @@ li.activo {
         font-size: 10px;
     }
 }
+
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait) {
 
     main{
@@ -361,6 +362,7 @@ li.activo {
 
     #RectánguloDos{
         display:block;
+        clear:both;
     }
 
     body{
