@@ -355,7 +355,7 @@ li.activo {
     #flexibilidad{
         display:grid;
         grid-template-columns: 1fr 300px;
-        gap:15px;
+        gap: 0px;
         align-items:start;
     }
 
@@ -400,16 +400,16 @@ li.activo {
 
     #ColumnaIzquierda > .sección1:nth-child(3) {
         grid-column: 1;
-        margin: 5px 0;
+        margin: 2px 0;
     }
 
     #ColumnaIzquierda > hr:nth-child(4) {
         grid-column: 1;
-        margin: 5px 0;
+        margin: 2px 0;
     }
 
     #ColumnaIzquierda > .sección2:nth-child(5) {
         grid-column:1;
-        margin-top: 5px;
+        margin-top: 2px;
     }
 }
