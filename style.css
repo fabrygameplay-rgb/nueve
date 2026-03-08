@@ -299,12 +299,17 @@ li.activo {
         display:flex;
         gap:10px;
     }
-    
-    #segundafoto,
+
+    #segundafoto {
+        width: 50%;
+        height: 155px;
+        object-fit: contain;
+    }
+
     #tercerafoto{
-        width:50%;
-        height:150px;
-        object-fit:contain;
+        width: 50%;
+        height: 150px;
+        object-fit: contain;
     }
 
     header {
