@@ -295,14 +295,16 @@ li.activo {
         border: none;
     }
 
+    .sección2 div{
+        display:flex;
+        gap:10px;
+    }
+    
     #segundafoto,
-    #tercerafoto {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 50%;
-        max-width: 50%;
-        height: 150px;
+    #tercerafoto{
+        width:50%;
+        height:150px;
+        object-fit:contain;
     }
 
     header {
