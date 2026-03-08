@@ -349,7 +349,7 @@ li.activo {
     }
 }
 
-@media (min-width: 600px) and (max-width: 900px) and (orientation: portrait) {
+@media (min-width: 536px) and (max-width: 900px) and (orientation: portrait) {
 
     #flexibilidad{
         display:block;
@@ -359,6 +359,23 @@ li.activo {
         float:right;
         width:280px;
         margin:0 0 15px 20px;
+    }
+
+    .sección2 div{
+        display:flex;
+        gap:10px;
+    }
+
+    #segundafoto {
+        width: 50%;
+        height: 155px;
+        object-fit: contain;
+    }
+
+    #tercerafoto{
+        width: 50%;
+        height: 150px;
+        object-fit: contain;
     }
 
 }
