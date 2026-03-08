@@ -348,3 +348,17 @@ li.activo {
         font-size: 10px;
     }
 }
+
+@media (min-width: 600px) and (max-width: 900px) and (orientation: portrait) {
+
+    #flexibilidad{
+        display:block;
+    }
+
+    #Rectángulo{
+        float:right;
+        width:280px;
+        margin:0 0 15px 20px;
+    }
+
+}
