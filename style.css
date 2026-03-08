@@ -349,33 +349,3 @@ li.activo {
         font-size: 10px;
     }
 }
-
-@media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
-
-    body{
-        font-size:18px;
-    }
-
-    #Rectángulo{
-        float:right;
-        width:280px;
-        margin:0 0 15px 20px;
-    }
-
-    .sección2 div{
-        display:flex;
-        gap:10px;
-    }
-
-    #segundafoto,
-    #tercerafoto{
-        width:50%;
-        height:150px;
-        object-fit:contain;
-    }
-
-    #textoAnatomía{
-        clear:both;
-    }
-
-}
