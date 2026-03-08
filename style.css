@@ -408,4 +408,12 @@ li.activo {
     #ColumnaIzquierda .sección2 {
         text-align: justify;
     }
+
+    body {
+        text-align: justify;
+    }
+
+    #Rectángulo {
+        margin: 0px 5px;
+    }
 }
