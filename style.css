@@ -256,6 +256,37 @@ li.activo {
     }
 }
 
+/* Media query para celulares, sin depender de orientation */
+@media (max-width: 535px) {
+
+    /* Contenedor principal */
+    #RectánguloDos {
+        display: flex;
+        flex-direction: column; /* fuerza los hijos en columna */
+        flex-wrap: nowrap;       /* evita que intenten estar en fila */
+        width: 100%;
+        gap: 10px;              /* opcional: espacio entre visor1 y visor2 */
+    }
+
+    /* Visores */
+    #visor1,
+    #visor2 {
+        display: flex;           /* asegúrate que sean visibles */
+        flex-direction: column;  /* contenido dentro de cada visor en columna */
+        width: 100%;             /* ocupen todo el ancho del contenedor */
+        margin: 0;               /* opcional: quitar márgenes que puedan romper layout */
+    }
+
+    /* Imagen y texto dentro de visor2 */
+    #imagenAnatomía,
+    #textoAnatomía {
+        width: 100%;
+        height: auto; /* ajusta altura automáticamente */
+        object-fit: contain; /* para que la imagen no se corte */
+    }
+
+}
+
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
 
     #flexibilidad{
