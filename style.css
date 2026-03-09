@@ -349,7 +349,6 @@ li.activo {
         font-size: 10px;
     }
 }
-
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
 
     #flexibilidad{
@@ -377,7 +376,7 @@ li.activo {
 
     main > *{
         grid-column:1;
-        padding-top:10px;
+        padding-top:25px;
     }
 
     #ColumnaIzquierda > .sección1:nth-child(3){
