@@ -189,7 +189,7 @@ li.activo {
     text-decoration: underline;
 }
 
-@media (min-width: 535px) and (max-width: 900px) and (orientation: portrait) {
+@media (min-width: 535px) and (orientation: portrait) {
 
     main,
     #flexibilidad {
@@ -256,7 +256,7 @@ li.activo {
     }
 }
 
-@media (max-width: 535px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
 
     main{
         display:block;
