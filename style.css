@@ -256,8 +256,7 @@ li.activo {
     }
 }
 
-@media (max-width: 535px) and (orientation: landscape) {
-
+@media (orientation: landscape) and (max-width: 900px) {
     #Rectángulo {
     width:300px;
     margin:20px 10px 10px 20px;
