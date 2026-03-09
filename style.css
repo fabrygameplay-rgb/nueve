@@ -189,7 +189,7 @@ li.activo {
     text-decoration: underline;
 }
 
-@media (min-width: 535px) and (orientation: portrait) {
+@media (max-width: 535px) and (orientation: portrait) {
 
     main,
     #flexibilidad {
@@ -254,6 +254,43 @@ li.activo {
         width: 100%;
         flex-basis: 100%;
     }
+}
+
+@media (max-width: 535px) and (orientation: landscape) {
+
+    #Rectángulo {
+    width:300px;
+    margin:20px 10px 10px 20px;
+    float:right;
+}
+    #RectánguloDos {
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap;       
+        width: 100%;
+        gap: 10px;              
+    }
+
+    #visor1,
+    #visor2 {
+        display: flex;           
+        flex-direction: column;  
+        width: 100%;             
+        margin: 0;          
+    }
+
+    #imagenAnatomía,
+    #textoAnatomía {
+        width: 100%;
+        height: auto; 
+        object-fit: contain;
+    }
+
+    #referencias {
+    font-size:8px;
+    line-height:1.2;
+}
+
 }
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
