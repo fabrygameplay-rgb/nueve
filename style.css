@@ -257,7 +257,7 @@ li.activo {
 }
 
 /* Media query para celulares, sin depender de orientation */
-@media (max-width: 535px) {
+@media (max-width: 535px) and (orientation: landscape) {
 
     /* Contenedor principal */
     #RectánguloDos {
