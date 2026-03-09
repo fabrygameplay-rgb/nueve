@@ -373,6 +373,7 @@ li.activo {
 
     main{
         display:contents;
+        margin-top: 10px;
     }
 
     main > *{
@@ -412,7 +413,7 @@ li.activo {
     #ColumnaIzquierda > hr:nth-child(7),
     #ColumnaIzquierda > .sección2:nth-child(8){
         grid-column:1 / -1;
-        text-align:left;
+        text-align:justify;
     }
 
     header{
