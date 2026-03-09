@@ -256,7 +256,7 @@ li.activo {
     }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
+@media (min-width: 536px) and (max-width: 900px) and (orientation: landscape) {
 
     main{
         display:block;
