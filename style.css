@@ -256,34 +256,40 @@ li.activo {
     }
 }
 
-/* Media query para celulares, sin depender de orientation */
 @media (max-width: 535px) and (orientation: landscape) {
 
-    /* Contenedor principal */
+        #Rectángulo {
+        width:300px;
+        margin:20px 10px 10px 20px;
+        float:right;
+    }
     #RectánguloDos {
         display: flex;
-        flex-direction: column; /* fuerza los hijos en columna */
-        flex-wrap: nowrap;       /* evita que intenten estar en fila */
+        flex-direction: column; 
+        flex-wrap: nowrap;       
         width: 100%;
-        gap: 10px;              /* opcional: espacio entre visor1 y visor2 */
+        gap: 10px;              
     }
 
-    /* Visores */
     #visor1,
     #visor2 {
-        display: flex;           /* asegúrate que sean visibles */
-        flex-direction: column;  /* contenido dentro de cada visor en columna */
-        width: 100%;             /* ocupen todo el ancho del contenedor */
-        margin: 0;               /* opcional: quitar márgenes que puedan romper layout */
+        display: flex;           
+        flex-direction: column;  
+        width: 100%;             
+        margin: 0;          
     }
 
-    /* Imagen y texto dentro de visor2 */
     #imagenAnatomía,
     #textoAnatomía {
         width: 100%;
-        height: auto; /* ajusta altura automáticamente */
-        object-fit: contain; /* para que la imagen no se corte */
+        height: auto; 
+        object-fit: contain;
     }
+
+    #referencias {
+    font-size:8px;
+    line-height:1.2;
+}
 
 }
 
