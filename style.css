@@ -361,6 +361,10 @@ li.activo {
         text-align:justify;
     }
 
+    #flexibilidad br{
+        display:none;
+    }
+
     #Rectángulo{
         grid-column:2;
         grid-row:1 / span 4;
