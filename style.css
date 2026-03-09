@@ -317,7 +317,6 @@ li.activo {
     }
 
     #visor1 {
-        flex: 1;
         min-width: 120px;
     }
 
