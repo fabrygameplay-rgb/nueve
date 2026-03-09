@@ -319,13 +319,16 @@ li.activo {
     #visor1 {
         flex: 1;
         min-width: 120px;
-        flex-wrap: wrap;
     }
 
     #imagenAnatomía{
         width:100%;
         height:170px;
-        object-fit: contain;
+    }
+
+    #textoAnatomía {
+        width: 100%;
+        height: 170px;
     }
 
     #visor2 {
@@ -333,12 +336,6 @@ li.activo {
         flex-direction: column;
         width: 100%;
         flex-basis: 100%;
-        height: 100px;
-    }
-
-    #textoAnatomía {
-        width: 100%;
-        height: 100px;
     }
 
     #referencias {
