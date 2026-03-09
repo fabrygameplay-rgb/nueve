@@ -271,8 +271,7 @@ li.activo {
 
     #RectánguloDos {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         font-size: 10px;
     }
 
@@ -320,6 +319,7 @@ li.activo {
     #visor1 {
         flex: 1;
         min-width: 120px;
+        flex-wrap: wrap;
     }
 
     #imagenAnatomía{
