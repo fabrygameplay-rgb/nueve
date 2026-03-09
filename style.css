@@ -256,41 +256,44 @@ li.activo {
     }
 }
 
-@media (max-width: 535px) and (orientation: landscape){
+@media (max-width: 535px) and (orientation: landscape) {
 
-    #flexibilidad{
-        display:grid;
-        grid-template-columns: 1fr 220px;
-        column-gap:12px;
-        row-gap:5px;
-        align-items:start;
+    body{
+        font-size: 10px;
     }
 
-    #flexibilidad br{
-        display:none;
+    main,
+    #flexibilidad {
+        flex-direction: column;
+        align-items: stretch;
+        font-size: 10px;
     }
 
-    #Rectángulo{
-        grid-column:2;
-        grid-row:1 / span 4;
-        width:220px;
-        margin-right:0;
+    #RectánguloDos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 10px;
     }
 
-    #ColumnaIzquierda{
-        display:contents;
+    #Rectángulo {
+        display: block;
+        width: 100%;
+        margin-right: 10px;
+        font-size: 10px;
     }
 
-    main{
-        grid-column:1 / -1;
-        margin-top:15px;
-        font-size:12px;
+    #CuadroVerde {
+        border: solid black 2px;
+        background-color: seagreen;
+        padding: 1px;
+        padding-right: 0px;
     }
 
-    .sección1,
-    .sección2,
-    hr{
-        grid-column:1;
+    #primerafoto {
+        width: 100%;
+        padding-right: 20px;
+        border: none;
     }
 
     .sección2 div{
@@ -298,21 +301,53 @@ li.activo {
         gap:10px;
     }
 
-    #segundafoto,
+    #segundafoto {
+        width: 50%;
+        height: 155px;
+        object-fit: contain;
+    }
+
     #tercerafoto{
-        width:50%;
-        height:120px;
-        object-fit:contain;
+        width: 50%;
+        height: 150px;
+        object-fit: contain;
     }
 
-    header{
-        font-size:22px;
+    header {
+        font-size: 24px;
     }
 
-    #referencias{
-        font-size:9px;
+    #visor1 {
+        flex: 1;
+        min-width: 120px;
     }
 
+    #imagenAnatomía{
+        width:100%;
+        height:170px;
+        object-fit: contain;
+    }
+
+    #visor2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-basis: 100%;
+        height: 100px;
+    }
+
+    #textoAnatomía {
+        width: 100%;
+        height: 100px;
+    }
+
+    #referencias {
+        font-size: 8px;
+    }
+
+    .sección2 {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
