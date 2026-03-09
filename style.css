@@ -373,7 +373,6 @@ li.activo {
 
     main{
         display:contents;
-        margin-top: 20px;
     }
 
     main > *{
