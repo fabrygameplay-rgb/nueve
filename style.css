@@ -268,8 +268,8 @@ li.activo {
         gap: 4px;
         grid-template-columns: repeat(2, 1fr);
         grid-area:
-        "main green"
-        "geo green"
+        "main green-box"
+        "geo green-box"
         "pic1 pic2"
         "taxo"
         "text text" 
@@ -278,13 +278,12 @@ li.activo {
 
     #Rectángulo{
         width:300px;
-        float:right;
         margin:10px 0 10px 15px;
     }
 
     #Taxonomía{
         clear:right;
-        grid-area: "taxo";
+        grid-area: taxo;
     }
 
     #RectánguloDos{
@@ -292,21 +291,21 @@ li.activo {
         flex-wrap:wrap;
         align-items:flex-start;
         gap:10px;
-        grid-area: "green";
+        grid-area: green-box;
     }
 
     #segundafoto {
-        grid-area: "pic1";
+        grid-area: pic1;
         flex-direction: row;
     }
 
     #tercerafoto {
-        grid-area: "pic2";
+        grid-area: pic2;
         flex-direction: row;
     }
 
     #ColumnaIzquierda {
-        grid-area: "text";
+        grid-area: text;
     }
 
     #visor1{
