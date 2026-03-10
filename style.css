@@ -258,19 +258,14 @@ li.activo {
 
 @media (orientation: landscape) and (max-width:900px){
 
-    main{
-        display:block;
-    }
-
     #flexibilidad{
         display:grid;
         grid-template-columns: 1fr 300px;
+        grid-template-rows:auto auto auto auto;
         column-gap:15px;
-        row-gap:10px;
-        align-items:start;
     }
 
-    #ColumnaIzquierda{
+   #ColumnaIzquierda{
         grid-column:1;
     }
 
@@ -278,69 +273,16 @@ li.activo {
         grid-column:2;
         grid-row:1 / span 3;
         width:100%;
-        margin:0;
         margin-top:20px;
     }
 
-    .sección2 div{
-        display:flex;
-        gap:10px;
-    }
-
-    #segundafoto,
-    #tercerafoto{
-        width:50%;
-        height:140px;
-        object-fit:contain;
-    }
-
-    #RectánguloDos{
+    #ColumnaIzquierda .sección1:last-of-type,
+    #ColumnaIzquierda .sección2:last-of-type{
         grid-column:1 / -1;
-        display:flex;
-        flex-wrap:wrap;
-        gap:10px;
+        width:calc(100% + 315px);
     }
 
-    #visor1{
-        flex:1;
-        min-width:120px;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        height:170px;
     }
-
-    #imagenAnatomía{
-        width:100%;
-        height:100%;
-        object-fit:contain;
-    }
-
-    #visor2{
-        flex-basis:100%;
-        display:flex;
-        flex-direction:column;
-    }
-
-    #textoAnatomía{
-        width:100%;
-        height:170px;
-    }
-
-    .sección1{
-        font-size:16px;
-    }
-
-    .sección2{
-        font-size:14px;
-    }
-
-    #referencias{
-        font-size:8px;
-        line-height:1.2;
-    }
-
-}
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
 
