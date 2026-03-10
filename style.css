@@ -256,53 +256,71 @@ li.activo {
     }
 }
 
-@media (orientation: landscape) and (max-width:900px){
+@media (orientation: landscape) and (max-width: 900px){
 
-main{
-    display:grid;
-    grid-template-columns: 1fr 300px;
-    grid-template-areas:
-        "intro rect"
-        "geo rect"
-        "tax tax"
-        "ana ana"
-        "ref ref";
-    gap:10px;
-}
+    main{
+        display:block;
+    }
 
-#Rectángulo{
-    grid-area: rect;
-    width:100%;
-}
+    #flexibilidad{
+        display:block;
+    }
 
-#introducción{
-    grid-area: intro;
-}
+    #Rectángulo{
+        width:300px;
+        float:right;
+        margin:10px 0 10px 15px;
+    }
 
-#Distribución{
-    grid-area: geo;
-}
+    #Taxonomía{
+        clear:right;
+    }
 
-#Taxonomía{
-    grid-area: tax;
-}
+    #RectánguloDos{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:flex-start;
+        gap:10px;
+    }
 
-#RectánguloDos{
-    grid-area: ana;
-}
+    #visor1{
+        flex:1;
+        min-width:120px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:170px;
+    }
 
-#referencias{
-    grid-area: ref;
-    font-size:8px;
-}
+    #imagenAnatomía{
+        width:100%;
+        height:100%;
+        object-fit:contain;
+    }
 
-.sección1{
-    font-size:16px;
-}
+    #textoAnatomía{
+        width:100%;
+        height:170px;
+    }
 
-.sección2{
-    font-size:14px;
-}
+    #visor2{
+        flex-basis:100%;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .sección1{
+        font-size:16px;
+    }
+
+    .sección2{
+        font-size:14px;
+    }
+
+    #referencias{
+        font-size:8px;
+        line-height:1.2;
+    }
 
 }
 
