@@ -269,6 +269,17 @@ li.activo {
         grid-column:1;
     }
 
+    .sección2 div{
+        display:flex;
+        justify-content:flex-end;
+        gap:10px;
+}
+
+    #segundafoto,
+    #tercerafoto{
+        width:48%;
+        height:auto;
+    }
     #Rectángulo{
         grid-column:2;
         grid-row:1 / span 3;
@@ -282,7 +293,7 @@ li.activo {
         width:calc(100% + 315px);
     }
 
-    }
+}
 
 @media (min-width: 536px) and (max-width: 900px) and (orientation: portrait){
 
