@@ -259,11 +259,18 @@ li.activo {
 @media (orientation: landscape) and (max-width: 900px){
 
     main{
-        display:block;
+        display: block;
     }
 
     #flexibilidad{
-        display:block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area:
+        "main green"
+        "geo green"
+        "pics green"
+        "taxo"
+        "text text" 
     }
 
     #Rectángulo{
@@ -274,6 +281,7 @@ li.activo {
 
     #Taxonomía{
         clear:right;
+        grid-area: "taxo";
     }
 
     #RectánguloDos{
@@ -281,6 +289,15 @@ li.activo {
         flex-wrap:wrap;
         align-items:flex-start;
         gap:10px;
+        grid-area: "green";
+    }
+
+    #segundafoto, #tercerafoto {
+        grid-area: "pics";
+    }
+
+    #ColumnaIzquierda {
+        grid-area: "text";
     }
 
     #visor1{
