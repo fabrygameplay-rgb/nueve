@@ -270,8 +270,7 @@ li.activo {
     }
 
     #ColumnaIzquierda{
-        grid-column:1 / -1;
-        max-width:600px;
+        grid-column:1;
     }
 
     #Rectángulo{
@@ -298,6 +297,7 @@ li.activo {
         display:flex;
         flex-wrap:wrap;
         gap:10px;
+        grid-column: 1/ -1;
     }
 
     #visor1{
