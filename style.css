@@ -256,56 +256,47 @@ li.activo {
     }
 }
 
-
-@media (orientation: landscape) and (max-width: 900px){
+@media (orientation: landscape) and (max-width:900px){
 
     main{
-        display: block;
+        display:block;
     }
 
     #flexibilidad{
-        display: grid;
-        gap: 4px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-area:
-        "main green-box"
-        "geo green-box"
-        "pic1 pic2"
-        "taxo"
-        "text text" 
-        "text text"
+        display:grid;
+        grid-template-columns: 1fr 300px;
+        column-gap:15px;
+        row-gap:10px;
+        align-items:start;
+    }
+
+    #ColumnaIzquierda{
+        grid-column:1;
     }
 
     #Rectángulo{
-        width:300px;
-        margin:10px 0 10px 15px;
+        grid-column:2;
+        grid-row:1 / span 4;
+        width:100%;
+        margin:0;
     }
 
-    #Taxonomía{
-        clear:right;
-        grid-area: taxo;
+    .sección2 div{
+        display:flex;
+        gap:10px;
+    }
+
+    #segundafoto,
+    #tercerafoto{
+        width:50%;
+        height:140px;
+        object-fit:contain;
     }
 
     #RectánguloDos{
         display:flex;
         flex-wrap:wrap;
-        align-items:flex-start;
         gap:10px;
-        grid-area: green-box;
-    }
-
-    #segundafoto {
-        grid-area: pic1;
-        flex-direction: row;
-    }
-
-    #tercerafoto {
-        grid-area: pic2;
-        flex-direction: row;
-    }
-
-    #ColumnaIzquierda {
-        grid-area: text;
     }
 
     #visor1{
@@ -323,17 +314,17 @@ li.activo {
         object-fit:contain;
     }
 
-    #textoAnatomía{
-        width:100%;
-        height:170px;
-    }
-
     #visor2{
         flex-basis:100%;
         display:flex;
         flex-direction:column;
     }
 
+    #textoAnatomía{
+        width:100%;
+        height:170px;
+    }
+    
     .sección1{
         font-size:16px;
     }
