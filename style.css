@@ -276,7 +276,7 @@ li.activo {
 
     #Rectángulo{
         grid-column:2;
-        grid-row:1 / span 4;
+        grid-row:1 / span 3;
         width:100%;
         margin:0;
     }
@@ -324,7 +324,7 @@ li.activo {
         width:100%;
         height:170px;
     }
-    
+
     .sección1{
         font-size:16px;
     }
