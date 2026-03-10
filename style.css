@@ -282,23 +282,36 @@ li.activo {
         margin-top:20px;
     }
 
+    /* FOTOS */
     .sección2 div{
         display:flex;
         gap:10px;
+        justify-content:flex-end; /* las manda a la derecha */
     }
 
     #segundafoto,
     #tercerafoto{
-        width:50%;
+        width:48%;
         height:140px;
         object-fit:contain;
     }
 
+    /* QUITAR HR DE TAXONOMÍA */
+    .sección1 + hr{
+        display:none;
+    }
+
+    /* ANATOMÍA */
     #RectánguloDos{
         display:flex;
         flex-wrap:wrap;
         gap:10px;
-        grid-column: 1/ -1;
+        grid-column:1 / -1;
+        align-items:flex-start;
+    }
+
+    #RectánguloDos ul{
+        margin-bottom:0;
     }
 
     #visor1{
@@ -325,6 +338,7 @@ li.activo {
     #textoAnatomía{
         width:100%;
         height:170px;
+        margin-bottom:0;
     }
 
     .sección1{
