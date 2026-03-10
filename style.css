@@ -264,7 +264,7 @@ li.activo {
 
     #flexibilidad{
         display:grid;
-        grid-template-columns: 1fr 220px; /* más espacio al texto */
+        grid-template-columns: 1fr 220px;
         column-gap:15px;
         row-gap:10px;
         align-items:start;
@@ -281,10 +281,9 @@ li.activo {
         margin-top:20px;
     }
 
-    /* FOTOS */
     .sección2 div{
         display:flex;
-        justify-content:space-between; /* ocupan todo el ancho */
+        justify-content:space-between;
         gap:10px;
         width:100%;
     }
@@ -296,13 +295,11 @@ li.activo {
         object-fit:contain;
     }
 
-    /* TAXONOMÍA ancho completo */
     #ColumnaIzquierda .sección1:last-of-type,
     #ColumnaIzquierda .sección2:last-of-type{
-        width:calc(100% + 235px); /* invade la columna derecha */
+        width:calc(100% + 235px); 
     }
 
-    /* ANATOMÍA */
     #RectánguloDos{
         display:flex;
         flex-wrap:wrap;
@@ -342,11 +339,11 @@ li.activo {
     }
 
     .sección1{
-        font-size:10px;
+        font-size:9px;
     }
 
     .sección2{
-        font-size:10px;
+        font-size:9px;
     }
 
     #referencias{
@@ -358,6 +355,12 @@ li.activo {
         width:100%;
         height:auto;
         object-fit:contain;
+    }
+
+    #primerafoto {
+        width: 100%;
+        padding-right: 20px;
+        border: none;
     }
 
 }
