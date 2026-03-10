@@ -342,16 +342,22 @@ li.activo {
     }
 
     .sección1{
-        font-size:16px;
+        font-size:10px;
     }
 
     .sección2{
-        font-size:14px;
+        font-size:10px;
     }
 
     #referencias{
         font-size:8px;
         line-height:1.2;
+    }
+
+    #Rectángulo img{
+        width:100%;
+        height:auto;
+        object-fit:contain;
     }
 
 }
