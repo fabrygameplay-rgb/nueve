@@ -255,6 +255,7 @@ li.activo {
         flex-basis: 100%;
     }
 }
+
 @media (orientation: landscape) and (max-width:900px){
 
     main{
@@ -294,10 +295,10 @@ li.activo {
     }
 
     #RectánguloDos{
+        grid-column:1 / -1;
         display:flex;
         flex-wrap:wrap;
         gap:10px;
-        grid-column: 1/ -1;
     }
 
     #visor1{
@@ -337,17 +338,6 @@ li.activo {
     #referencias{
         font-size:8px;
         line-height:1.2;
-    }
-
-    #ColumnaIzquierda > .sección1:nth-child(6),
-    #ColumnaIzquierda > hr:nth-child(7),
-    #ColumnaIzquierda > .sección2:nth-child(8){
-        grid-column:1 / -1;
-    }
-
-    #ColumnaIzquierda > hr:nth-child(4),
-    #ColumnaIzquierda > .sección2:nth-child(5){
-        grid-column:1;
     }
 
 }
