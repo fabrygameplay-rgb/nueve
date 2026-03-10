@@ -264,13 +264,15 @@ li.activo {
 
     #flexibilidad{
         display: grid;
+        gap: 4px;
         grid-template-columns: repeat(2, 1fr);
         grid-area:
         "main green"
         "geo green"
-        "pics green"
+        "pic1 pic2"
         "taxo"
         "text text" 
+        "text text"
     }
 
     #Rectángulo{
@@ -292,8 +294,14 @@ li.activo {
         grid-area: "green";
     }
 
-    #segundafoto, #tercerafoto {
-        grid-area: "pics";
+    #segundafoto {
+        grid-area: "pic1";
+        flex-direction: row;
+    }
+
+    #tercerafoto {
+        grid-area: "pic2";
+        flex-direction: row;
     }
 
     #ColumnaIzquierda {
